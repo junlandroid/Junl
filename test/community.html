@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>React组件通信</title>
+    <script type="text/javascript" src="react.js"></script>
+    <script type="text/javascript" src="react-dom.js"></script>
+    <script type="text/javascript" src="browser.min.js"></script>
+</head>
+<body>
+<div id="example"></div>
+<script type="text/babel">
+    
+    var HelloMe = React.createClass(
+        {
+            render:function () {
+                return <h1>开始学习：{this.props.name}，我是Junl</h1>;
+            }
+        }
+    );
+
+    
+    
+//    var HelloMessage = React.createClass(
+//        {
+//            render: function () {
+//                return <h1>开始学习：{this.props.name}，我是Junl</h1>;
+//            }
+//        }
+//    );
+//
+//    React.render(<HelloMessage name = "React Native语法基础"/> , document.getElementById('example'));
+</script>
+
+</body>
+</html>
